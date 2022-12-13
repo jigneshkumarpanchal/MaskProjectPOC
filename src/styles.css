@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+.container { position: relative;
+  
+             
+              
+               }
+#soblurme {
+  position: absolute;
+  border: 1px solid white;
+  pointer-events: none;
+  left: 70px;
+  top: 20px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+
+#svgcircle {
+  position: absolute;
+  border: 1px solid white;
+  pointer-events: none;
+  left: 70px;
+  top: 20px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+
+video {
+
+   height: 100%; 
+  cursor: none;
+ 
+ 
+  
+
+
+}
+
+#canvas{
+  position: absolute;  
+  
+  left: 0px;
+  top: 0px;
+
+
+ 
+ 
+  
+}
+
+
+.blueDIV1 {
+  position: absolute;
+  width: 1500px;
+  height: 800px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
